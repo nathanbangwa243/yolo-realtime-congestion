@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "opencv-python>=4.6", "numpy>=1.23"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo_realtime_congestion"
+version = "0.0.1"
+authors = [
+  { name="NathanBangwa243", email="nathanbangwa243@gmail.com" },
+]
+description = "A Yolo Inference package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nathanbangwa243/yolo-realtime-congestion"
+"Bug Tracker" = "https://github.com/nathanbangwa243/yolo-realtime-congestion/issues"
